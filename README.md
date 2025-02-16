@@ -113,3 +113,6 @@ Session ID라고 하는 랜덤한 Key를 쿠키에 담아서 Auth에 활용,
 - **블랙리스트에 등록된 Refresh Token**을 사용하여 Access Token 갱신 요청
 - 응답 코드: 401 Unauthorized
 - refresh 토큰이 블랙리스트에 등록되었음을 나타내는 메시지가 반환되어야 함
+
+-----
+서버 배포 : http://3.39.239.87:8000/
