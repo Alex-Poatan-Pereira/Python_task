@@ -27,6 +27,7 @@ SECRET_KEY = "django-insecure-6!zmlwx31o7+psk)=(^lc+ocjz_+diz!r1r#2s!q1i(r)@k#02
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '127.0.0.1',
     "3.39.239.87"
 ]
 
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "drf_yasg",
     "rest_framework_simplejwt",
     "accounts",
     
